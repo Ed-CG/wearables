@@ -41,7 +41,7 @@ Una estructura base (la de este repo) suele verse así:
 ## Convenciones recomendadas
 
 - Nombres en minúsculas y con guiones: `mi-pagina.md`.
-- Una página = un tema.
+- Una página es un tema.
 - Mantén **pocos niveles** de anidación (2 niveles suele ser suficiente).
 - Usa `assets/img/` para imágenes y `assets/files/` para PDFs.
 
@@ -60,7 +60,7 @@ nav_order: 10
 ```
 
 - `title` aparece en el menú.
-- `nav_order` controla el orden.
+- `nav_order` controla el orden de aparición en el menu.
 - `layout: default` funciona bien para la mayoría de páginas.
 
 ---

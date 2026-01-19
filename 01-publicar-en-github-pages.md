@@ -23,7 +23,7 @@ En este curso vamos a publicar tu documentación como un **sitio web** usando:
 - **GitHub Pages**: servicio que publica tu repo como sitio web.
 - **Pipeline (Actions)**: proceso automático que construye y publica el sitio cuando haces *push*.
 
-<!-- ![Figura 1 — GitHub](assets/img/fig01-github-home.png) -->
+[Figura 1 — GitHub](assets/img/01-publicar/github.png)
 **Figura 1:** Página principal de GitHub.
 
 ---
@@ -41,7 +41,7 @@ Vas a partir del repo plantilla (este repositorio).
    - **Repository name**: por ejemplo `documentacion-equipo-3`
 4. Clic en **Create fork**.
 
-<!-- ![Figura 2 — Fork](assets/img/fig02-fork.png) -->
+[Figura 2 — Fork](assets/img/01-publicar/fork.png)
 **Figura 2:** Botón *Fork* y pantalla de creación.
 
 > Ventaja: no necesitas “subir archivos” manualmente; ya tienes el proyecto completo en tu cuenta.
@@ -60,11 +60,11 @@ Vas a partir del repo plantilla (este repositorio).
    - Arrastra los archivos (descomprimidos) a la ventana
    - Clic en **Commit changes**
 
-<!-- ![Figura 3 — New repo](assets/img/fig03-new-repo.png) -->
+[Figura 3 — New repo](assets/img/01-publicar/nuevo.png)
 **Figura 3:** Crear repositorio nuevo.
 
-<!-- ![Figura 4 — Download ZIP + Upload files](assets/img/fig04-zip-upload.png) -->
-**Figura 4:** Descargar ZIP / subir archivos.
+[Figura 4 — Download ZIP + Upload files](assets/img/01-publicar/download.png)
+**Figura 4:** Descargar ZIP.
 
 
 ---
@@ -75,8 +75,8 @@ Vas a partir del repo plantilla (este repositorio).
    - Clic en **Code → Codespaces → Create codespace on main**
 2. Se abre un VS Code en el navegador.
 
-<!-- ![Figura 5 — Codespaces](assets/img/fig05-codespaces.png) -->
-**Figura 5 (pendiente):** Crear Codespace.
+[Figura 5 — Codespaces](assets/img/01-publicar/codespace.png)
+**Figura 5:** Crear Codespace.
 
 > Nota: Codespaces puede tardar 1–3 minutos en iniciar la primera vez.
 
@@ -102,7 +102,7 @@ url: "https://ana-ibero.github.io"
 baseurl: "/documentacion-equipo-3"
 ```
 
-<!-- ![Figura 6 — Edit config](assets/img/fig06-config.png) -->
+[Figura 6 — Edit config](assets/img/01-publicar/config.png)
 **Figura 6:** Editando `_config.yml` en Codespaces.
 
 > Si `baseurl` no coincide con el nombre del repo, los links y estilos suelen “romperse”.
@@ -120,7 +120,7 @@ En Codespaces:
 4. Clic en **Commit**.
 5. Clic en **Sync Changes** (o **Push**).
 
-<!-- ![Figura 7 — Commit y Push](assets/img/fig07-commit-push.png) -->
+[Figura 7 — Commit y Push](assets/img/01-publicar/codespace.png))
 **Figura 7:** Source Control → Commit → Sync Changes.
 
 ### ¿Qué pasó en realidad?
@@ -148,7 +148,7 @@ GitHub te mostrará tu URL con este formato:
 
 - `https://TU_USUARIO.github.io/TU_REPO/`
 
-<!-- ![Figura 8 — Pages settings](assets/img/fig08-pages.png) -->
+[Figura 8 — Pages settings](assets/img/01-publicar/website.png)
 **Figura 8:** Settings → Pages (branch y folder).
 
 ---
@@ -162,7 +162,7 @@ GitHub te mostrará tu URL con este formato:
 3. Espera a que salga en **verde (success)**.
 4. Regresa a **Settings → Pages** y abre la URL.
 
-<!-- ![Figura 9 — Actions success](assets/img/fig09-actions-success.png) -->
+[Figura 9 — Actions success](assets/img/01-publicar/actions.png)
 **Figura 9:** Actions con ejecución exitosa.
 
 
