@@ -1,24 +1,16 @@
 ---
 layout: default
-title: Inicio
+title: Home
 nav_order: 1
 ---
 
-# Plantilla de documentación con Just the Docs
+# Bitácora Web y Documentación (Wearables)
 
-Este repositorio está diseñado para entender como utilizar la plantilla de repositorio que utiliza **"Just the docs"** de Jekyll y el lenguaje **"Markdown"**:
+Bienvenido al sitio web del proyecto **Dispositivos de Tecnología Corporal - Wearables**. Aquí se documenta la memoria de diseño, el contenido práctico y el desarrollo técnico de las prácticas del curso.
 
-1. **Crear y publicar** el sitio en GitHub Pages.
-2. Aprender la **estructura** típica de un repo de documentación.
-3. Dominar **Markdown** (texto, listas, tablas, código).
-4. Configurar la **navegación** (sidebar, secciones, orden).
-5. Agregar **imágenes, videos** y otros recursos.
-6. Ajustar **estilos** (logo, colores, footer).
+## Índice del Proyecto
 
-
-Contenido:
-- [1. Publicar en GitHub Pages](01-publicar-en-github-pages.md)
-- [2. Estructura del repositorio](02-estructura-del-repo.md)
-- [3. Escribir en Markdown](03-markdown.md)
-- [4. Personalización visual](04-estilos.md)
-
+* [Práctica 1 - Pulsera Textil Interactiva con Hilo Conductor](practica-1/)
+* [Práctica 2 - Pulsera Textil Interactiva con Microcontrolador](practica-2/)
+* [Práctica 3 - Bordado y Estampado](practica-3/)
+* [Proyecto Final - Bitácora y Documentación](proyecto-final/)

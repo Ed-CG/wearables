@@ -1,4 +1,5 @@
----
+﻿---
+nav_exclude: true
 layout: default
 title: Escribir en Markdown
 nav_order: 4
@@ -6,41 +7,41 @@ nav_order: 4
 
 # Escribir en Markdown
 
-Markdown es el formato principal para escribir contenido en tu sitio (Just the Docs). La idea es que puedas crear páginas claras y consistentes, sin depender de Word ni formatos complicados.
+Markdown es el formato principal para escribir contenido en tu sitio (Just the Docs). La idea es que puedas crear pÃ¡ginas claras y consistentes, sin depender de Word ni formatos complicados.
 
 ---
 
 ## 1) Regla de oro
 
-- En cada página usa **un solo H1** (el título de la página).
+- En cada pÃ¡gina usa **un solo H1** (el tÃ­tulo de la pÃ¡gina).
 - Dentro del contenido usa **H2 para secciones** y **H3 para subsecciones**.
-- Mantén frases cortas y listas para pasos o requerimientos.
+- MantÃ©n frases cortas y listas para pasos o requerimientos.
 
 ---
 
-## 2) Encabezados (títulos)
+## 2) Encabezados (tÃ­tulos)
 
-Código:
+CÃ³digo:
 
 ```md
-# Título de la página (H1)
-## Sección (H2)
-### Subsección (H3)
+# TÃ­tulo de la pÃ¡gina (H1)
+## SecciÃ³n (H2)
+### SubsecciÃ³n (H3)
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
-**Título de la página (H1)**  
-**Sección (H2)**  
-**Subsección (H3)**
+**TÃ­tulo de la pÃ¡gina (H1)**  
+**SecciÃ³n (H2)**  
+**SubsecciÃ³n (H3)**
 
-Recomendación: usa **H2** como secciones principales dentro de páginas; evita múltiples H1.
+RecomendaciÃ³n: usa **H2** como secciones principales dentro de pÃ¡ginas; evita mÃºltiples H1.
 
 ---
 
-## 3) Negritas, cursivas y texto en línea
+## 3) Negritas, cursivas y texto en lÃ­nea
 
-Código:
+CÃ³digo:
 
 ```md
 **negrita**
@@ -48,18 +49,18 @@ Código:
 `codigo en linea`
 ```
 
-Ejemplos (cómo se ve):
+Ejemplos (cÃ³mo se ve):
 - **Entrega final** el viernes.
 - *Entrega final* el viernes.
 - Usa `git status` para ver cambios.
 
 ---
 
-## 4) Listas (viñetas, numeradas y tareas)
+## 4) Listas (viÃ±etas, numeradas y tareas)
 
-### Viñetas
+### ViÃ±etas
 
-Código:
+CÃ³digo:
 
 ```md
 - Punto 1
@@ -67,14 +68,14 @@ Código:
   - Subpunto 2.1
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 - Punto 1
 - Punto 2
   - Subpunto 2.1
 
 ### Numeradas (pasos)
 
-Código:
+CÃ³digo:
 
 ```md
 1. Abre Codespaces
@@ -83,43 +84,43 @@ Código:
 4. Haz push
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 1. Abre Codespaces
 2. Edita el archivo
 3. Haz commit
 4. Haz push
 
-### Checklists (útiles para entregas)
+### Checklists (Ãºtiles para entregas)
 
-Código:
+CÃ³digo:
 
 ```md
-- [ ] Agregué portada (index.md)
-- [ ] Publiqué en GitHub Pages
-- [ ] Verifiqué Actions en verde
+- [ ] AgreguÃ© portada (index.md)
+- [ ] PubliquÃ© en GitHub Pages
+- [ ] VerifiquÃ© Actions en verde
 ```
 
-Ejemplo (cómo se ve):
-- [ ] Agregué portada (index.md)
-- [ ] Publiqué en GitHub Pages
-- [ ] Verifiqué Actions en verde
+Ejemplo (cÃ³mo se ve):
+- [ ] AgreguÃ© portada (index.md)
+- [ ] PubliquÃ© en GitHub Pages
+- [ ] VerifiquÃ© Actions en verde
 
 ---
 
-## 5) Enlaces (a páginas, secciones, archivos y web)
+## 5) Enlaces (a pÃ¡ginas, secciones, archivos y web)
 
-### Enlace a otra página del sitio
+### Enlace a otra pÃ¡gina del sitio
 
-Código:
+CÃ³digo:
 
 ```md
 [Ir a Estructura del repositorio](02-estructura-del-repo.md)
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 [Ir a Estructura del repositorio](02-estructura-del-repo.md)
 
-### Enlace a una sección dentro de la misma página (ancla)
+### Enlace a una secciÃ³n dentro de la misma pÃ¡gina (ancla)
 
 Primero, crea un encabezado:
 
@@ -127,104 +128,104 @@ Primero, crea un encabezado:
 ## Mi Seccion Importante
 ```
 
-Luego enlaza así:
+Luego enlaza asÃ­:
 
 ```md
 [Ir a Mi Seccion Importante](#mi-seccion-importante)
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 [Ir a Mi Seccion Importante](#mi-seccion-importante)
 
-> Nota: los espacios se convierten en guiones y todo queda en minúsculas.
+> Nota: los espacios se convierten en guiones y todo queda en minÃºsculas.
 
 ### Enlace a un archivo (PDF, ZIP, etc.)
 
-Guarda el archivo en `assets/files/` y enlaza así:
+Guarda el archivo en `assets/files/` y enlaza asÃ­:
 
 ```md
 [Descargar hoja de datos](assets/files/calendario.pdf)
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 [Descargar hoja de datos](assets/files/calendario.pdf)
 
 ### Enlace externo
 
-Código:
+CÃ³digo:
 
 ```md
 [GitHub](https://github.com)
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 [GitHub](https://github.com)
 
 ---
 
-## 6) Imágenes (y buenas prácticas de rutas)
+## 6) ImÃ¡genes (y buenas prÃ¡cticas de rutas)
 
-Guarda imágenes en `assets/img/`.
+Guarda imÃ¡genes en `assets/img/`.
 
-Código:
+CÃ³digo:
 
 ```md
 ![Diagrama del sistema](assets/img/diagrama-sistema.png)
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 (El ejemplo renderiza cuando la imagen existe en esa ruta)
 
 <!-- Ejemplo sugerido usando un archivo que normalmente ya existe en la plantilla -->
 ![Ejemplo (logo)](assets/img/logotipo.png)
 
-Buenas prácticas:
+Buenas prÃ¡cticas:
 - Usa nombres consistentes: `fig15-...`, `diagrama-...`, `captura-...`
 - Evita espacios y acentos en nombres de archivo.
-- Respeta mayúsculas/minúsculas (en web sí importa).
+- Respeta mayÃºsculas/minÃºsculas (en web sÃ­ importa).
 
 ---
 
 ## 7) Video (opciones recomendadas)
 
-### Opción A: Enlace
+### OpciÃ³n A: Enlace
 
-Ideal para no romper el diseño.
+Ideal para no romper el diseÃ±o.
 
-Código:
+CÃ³digo:
 
 ```md
-[Ver video de demostración (YouTube)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
+[Ver video de demostraciÃ³n (YouTube)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
 ```
 
-Ejemplo (cómo se ve):  
-[Ver video de demostración (YouTube)](https://www.youtube.com/watch?v=6om9bh6pz_s)
+Ejemplo (cÃ³mo se ve):  
+[Ver video de demostraciÃ³n (YouTube)](https://www.youtube.com/watch?v=6om9bh6pz_s)
 
-### Opción B: Embed
+### OpciÃ³n B: Embed
 
-Puedes incrustar un video con HTML. Úsalo con moderación.
+Puedes incrustar un video con HTML. Ãšsalo con moderaciÃ³n.
 
-Código:
+CÃ³digo:
 
 ```html
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ID_DEL_VIDEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6om9bh6pz_s?si=vGGN_nxT5MHCHusO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 
-### Opción C: Video MP4 (archivo local en tu repositorio)
+### OpciÃ³n C: Video MP4 (archivo local en tu repositorio)
 
 1) Guarda tu video en una carpeta del repo, por ejemplo:
 - `assets/videos/` (recomendado para mantener orden), o
-- `assets/img/` (si ya estás usando esa ruta en tu curso)
+- `assets/img/` (si ya estÃ¡s usando esa ruta en tu curso)
 
 2) Inserta el video con HTML:
 
-Código:
+CÃ³digo:
 
 ```html
 <video controls width="720">
@@ -233,7 +234,7 @@ Código:
 </video>
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 (Solo renderiza cuando exista `assets/videos/demo.mp4` en tu repo)
 
 <video controls width="720">
@@ -242,16 +243,16 @@ Ejemplo (cómo se ve):
 </video>
 
 Recomendaciones:
-- Mantén los MP4 **ligeros** (clips cortos). Archivos muy grandes hacen el repo pesado y lento de descargar.
+- MantÃ©n los MP4 **ligeros** (clips cortos). Archivos muy grandes hacen el repo pesado y lento de descargar.
 - Usa nombres simples: `demo-robot.mp4`, `calibracion-01.mp4`.
 
 ---
 
-## 8) Código (bloques con resaltado y fragmentos)
+## 8) CÃ³digo (bloques con resaltado y fragmentos)
 
 ### Bloque con resaltado
 
-Código:
+CÃ³digo:
 
 ````md
 ```python
@@ -259,7 +260,7 @@ print("hola")
 ```
 ````
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
 ```python
 print("hola")
@@ -267,7 +268,7 @@ print("hola")
 
 ### Bloque sin lenguaje (texto plano)
 
-Código:
+CÃ³digo:
 
 ````md
 ```text
@@ -278,7 +279,7 @@ git push
 ```
 ````
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
 ```text
 git status
@@ -287,22 +288,22 @@ git commit -m "mensaje"
 git push
 ```
 
-### Código en línea
+### CÃ³digo en lÃ­nea
 
-Código:
+CÃ³digo:
 
 ```md
 Usa `git status` para ver cambios.
 ```
 
-Ejemplo (cómo se ve):  
+Ejemplo (cÃ³mo se ve):  
 Usa `git status` para ver cambios.
 
 ---
 
 ## 9) Tablas
 
-Código:
+CÃ³digo:
 
 ```md
 | Campo | Tipo | Ejemplo |
@@ -311,15 +312,15 @@ Código:
 | CPU   | x86  | i5      |
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
 | Campo | Tipo | Ejemplo |
 |------:|:----:|:--------|
 | RAM   | GB   | 8       |
 | CPU   | x86  | i5      |
 
-Buenas prácticas:
-- No abuses de tablas anchas (en móvil se vuelven incómodas).
+Buenas prÃ¡cticas:
+- No abuses de tablas anchas (en mÃ³vil se vuelven incÃ³modas).
 - Si la tabla se vuelve enorme, considera dividir en 2 o pasar a lista.
 
 ---
@@ -328,25 +329,25 @@ Buenas prácticas:
 
 ### Cita (blockquote)
 
-Código:
+CÃ³digo:
 
 ```md
-> Esto es una cita o nota rápida.
+> Esto es una cita o nota rÃ¡pida.
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
-> Esto es una cita o nota rápida.
+> Esto es una cita o nota rÃ¡pida.
 
 ### Separador
 
-Código:
+CÃ³digo:
 
 ```md
 ---
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
 ---
 
@@ -357,31 +358,31 @@ Ejemplo (cómo se ve):
 
 Puedes usar HTML nativo.
 
-Código:
+CÃ³digo:
 
 ```html
 <details>
-  <summary>Ver solución</summary>
+  <summary>Ver soluciÃ³n</summary>
 
-  Aquí va la explicación o solución paso a paso.
+  AquÃ­ va la explicaciÃ³n o soluciÃ³n paso a paso.
 </details>
 ```
 
-Ejemplo (cómo se ve):
+Ejemplo (cÃ³mo se ve):
 
 <details>
-  <summary>Ver solución</summary>
+  <summary>Ver soluciÃ³n</summary>
 
-  Aquí va la explicación o solución paso a paso.
+  AquÃ­ va la explicaciÃ³n o soluciÃ³n paso a paso.
 </details>
 
 ---
 
-## 12) Plantilla rápida para una página del curso
+## 12) Plantilla rÃ¡pida para una pÃ¡gina del curso
 
 Copia y adapta.
 
-Código (front matter):
+CÃ³digo (front matter):
 
 ```yml
 ---
@@ -391,7 +392,7 @@ nav_order: 50
 ---
 ```
 
-Ejemplo (cómo se vería al inicio de un archivo `mi-pagina.md`):
+Ejemplo (cÃ³mo se verÃ­a al inicio de un archivo `mi-pagina.md`):
 
 ```yml
 ---
@@ -422,6 +423,6 @@ Y debajo, tu contenido:
 
 ---
 
-## Siguiente sección
+## Siguiente secciÃ³n
 
-[Estilos y personalización visual](04-estilos.md)
+[Estilos y personalizaciÃ³n visual](04-estilos.md)

@@ -4,3 +4,7 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# Local workspace config
+*.code-workspace
+.github/prompts/

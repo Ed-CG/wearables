@@ -1,4 +1,5 @@
----
+﻿---
+nav_exclude: true
 layout: default
 title: Publicar en GitHub Pages
 nav_order: 2
@@ -6,10 +7,10 @@ nav_order: 2
 
 # Publicar sitio en GitHub Pages
 
-En este curso vamos a publicar tu documentación como un **sitio web** usando:
+En este curso vamos a publicar tu documentaciÃ³n como un **sitio web** usando:
 
 - **GitHub** (para guardar el repositorio y el historial)
-- **GitHub Pages** (para convertir el repositorio en una URL pública)
+- **GitHub Pages** (para convertir el repositorio en una URL pÃºblica)
 - **Codespaces** (para editar desde el navegador, sin instalar nada)
 
 ---
@@ -18,13 +19,13 @@ En este curso vamos a publicar tu documentación como un **sitio web** usando:
 
 - **GitHub**: plataforma para alojar proyectos (repositorios) y colaborar.
 - **Repositorio (repo)**: carpeta de proyecto con archivos + historial.
-- **Commit**: “guardar un cambio” en el historial con un mensaje.
+- **Commit**: â€œguardar un cambioâ€ en el historial con un mensaje.
 - **Push**: enviar tus commits a GitHub (a la nube).
 - **GitHub Pages**: servicio que publica tu repo como sitio web.
-- **Pipeline (Actions)**: proceso automático que construye y publica el sitio cuando haces *push*.
+- **Pipeline (Actions)**: proceso automÃ¡tico que construye y publica el sitio cuando haces *push*.
 
-![Figura 1 — GitHub](assets/img/01-publicar/github.png)
-**Figura 1:** Página principal de GitHub.
+![Figura 1 â€” GitHub](assets/img/01-publicar/github.png)
+**Figura 1:** PÃ¡gina principal de GitHub.
 
 ---
 
@@ -37,35 +38,35 @@ Vas a partir del repo plantilla (este repositorio).
 1. Abre el repositorio a copiar en GitHub.
 2. Clic en **Fork**.
 3. Configura:
-   - **Owner**: tu usuario (o la organización de tu equipo)
+   - **Owner**: tu usuario (o la organizaciÃ³n de tu equipo)
    - **Repository name**: por ejemplo `documentacion-equipo-3`
 4. Clic en **Create fork**.
 
-![Figura 2 — Fork](assets/img/01-publicar/fork.png)
-**Figura 2:** Botón *Fork* y pantalla de creación.
+![Figura 2 â€” Fork](assets/img/01-publicar/fork.png)
+**Figura 2:** BotÃ³n *Fork* y pantalla de creaciÃ³n.
 
-> Ventaja: no necesitas “subir archivos” manualmente; ya tienes el proyecto completo en tu cuenta.
+> Ventaja: no necesitas â€œsubir archivosâ€ manualmente; ya tienes el proyecto completo en tu cuenta.
 
 ### Ruta B (alternativa): Crear un repo nuevo y subir los archivos
 
-Úsala solo si se necesita “crear repo desde cero”.
+Ãšsala solo si se necesita â€œcrear repo desde ceroâ€.
 
-1. Abre GitHub → **New repository**.
+1. Abre GitHub â†’ **New repository**.
 2. Nombre: `documentacion-equipo-3`.
 3. Crea el repo.
 4. Descarga el repo en tu computadora:
-   - **Code → Download ZIP** (o descarga el `.zip` que te entregó el profesor).
+   - **Code â†’ Download ZIP** (o descarga el `.zip` que te entregÃ³ el profesor).
 5. Sube el contenido a tu repo:
-   - **Add file → Upload files**
+   - **Add file â†’ Upload files**
    - Arrastra los archivos (descomprimidos) a la ventana
    - Clic en **Commit changes**
-![Figura 3 — Download ZIP + Upload files](assets/img/01-publicar/download.png)
+![Figura 3 â€” Download ZIP + Upload files](assets/img/01-publicar/download.png)
 **Figura 3:** Descargar ZIP.
 
-![Figura 4 — New repo](assets/img/01-publicar/nuevo.png)
-![Figura — New ](assets/img/01-publicar/new.png)
-![Figura  — exixting](assets/img/01-publicar/upload.png)
-![Figura  — upload](assets/img/01-publicar/files.png)
+![Figura 4 â€” New repo](assets/img/01-publicar/nuevo.png)
+![Figura â€” New ](assets/img/01-publicar/new.png)
+![Figura  â€” exixting](assets/img/01-publicar/upload.png)
+![Figura  â€” upload](assets/img/01-publicar/files.png)
 **Figura 4:** Crear repositorio nuevo.
 
 ---
@@ -73,13 +74,13 @@ Vas a partir del repo plantilla (este repositorio).
 ## 3) Abrir el proyecto con Codespaces (sin instalar nada)
 
 1. En tu repo (tu fork o tu repo nuevo):
-   - Clic en **Code → Codespaces → Create codespace on main**
+   - Clic en **Code â†’ Codespaces â†’ Create codespace on main**
 2. Se abre un VS Code en el navegador.
 
-![Figura 5 — Codespaces](assets/img/01-publicar/codespace.png)
+![Figura 5 â€” Codespaces](assets/img/01-publicar/codespace.png)
 **Figura 5:** Crear Codespace.
 
-> Nota: Codespaces puede tardar 1–3 minutos en iniciar la primera vez.
+> Nota: Codespaces puede tardar 1â€“3 minutos en iniciar la primera vez.
 
 ---
 
@@ -92,7 +93,7 @@ url: "https://TU_USUARIO.github.io"
 baseurl: "/TU_REPO"
 ```
 
-Ejemplo típico:
+Ejemplo tÃ­pico:
 - Usuario: `ana-ibero`
 - Repo: `documentacion-equipo-3`
 
@@ -103,10 +104,10 @@ url: "https://ana-ibero.github.io"
 baseurl: "/documentacion-equipo-3"
 ```
 
-![Figura 6 — Edit config](assets/img/01-publicar/config.png)
+![Figura 6 â€” Edit config](assets/img/01-publicar/config.png)
 **Figura 6:** Editando `_config.yml` en Codespaces.
 
-> Si `baseurl` no coincide con el nombre del repo, los links y estilos suelen “romperse”.
+> Si `baseurl` no coincide con el nombre del repo, los links y estilos suelen â€œromperseâ€.
 
 ---
 
@@ -115,22 +116,22 @@ baseurl: "/documentacion-equipo-3"
 En Codespaces:
 
 1. Modifica un archivo sencillo, por ejemplo `index.md`.
-2. Ve a la pestaña **Source Control** (ícono de rama).
+2. Ve a la pestaÃ±a **Source Control** (Ã­cono de rama).
 3. En **Message**, escribe un mensaje de commit, por ejemplo:
    - `Actualiza portada`
 4. Clic en **Commit**.
 5. Clic en **Sync Changes** (o **Push**).
 
-![Figura 7 — Commit y Push](assets/img/01-publicar/codespace.png))
-**Figura 7:** Source Control → Commit → Sync Changes.
+![Figura 7 â€” Commit y Push](assets/img/01-publicar/codespace.png))
+**Figura 7:** Source Control â†’ Commit â†’ Sync Changes.
 
-### ¿Qué pasó en realidad?
+### Â¿QuÃ© pasÃ³ en realidad?
 
 Cuando haces **push**:
 1. Tus archivos se guardan en GitHub.
 2. Se dispara un **pipeline (GitHub Actions)**.
 3. GitHub construye el sitio (Jekyll + Just the Docs).
-4. GitHub publica la versión nueva en **GitHub Pages**.
+4. GitHub publica la versiÃ³n nueva en **GitHub Pages**.
 
 ---
 
@@ -138,37 +139,37 @@ Cuando haces **push**:
 
 En tu repositorio (en GitHub, no en Codespaces):
 
-1. **Settings → Pages**
+1. **Settings â†’ Pages**
 2. En **Build and deployment**:
    - Source: **Deploy from a branch**
    - Branch: `main`
    - Folder: `/ (root)`
 3. Guarda.
 
-GitHub te mostrará tu URL con este formato:
+GitHub te mostrarÃ¡ tu URL con este formato:
 
 - `https://TU_USUARIO.github.io/TU_REPO/`
 
-![Figura  — Pages ](assets/img/01-publicar/pages.png)
-![Figura 8 — Pages settings](assets/img/01-publicar/website.png)
-**Figura 8:** Settings → Pages (branch y folder).
+![Figura  â€” Pages ](assets/img/01-publicar/pages.png)
+![Figura 8 â€” Pages settings](assets/img/01-publicar/website.png)
+**Figura 8:** Settings â†’ Pages (branch y folder).
 
 ---
 
-## 7) Verificar que el sitio ya está publicado
+## 7) Verificar que el sitio ya estÃ¡ publicado
 
-### Verificación rápida (lo mínimo)
+### VerificaciÃ³n rÃ¡pida (lo mÃ­nimo)
 
-1. En el repo, abre la pestaña **Actions**.
+1. En el repo, abre la pestaÃ±a **Actions**.
 2. Busca el workflow que dice algo como **pages build and deployment**.
 3. Espera a que salga en **verde (success)**.
-4. Regresa a **Settings → Pages** y abre la URL.
+4. Regresa a **Settings â†’ Pages** y abre la URL.
 
-![Figura 9 — Actions success](assets/img/01-publicar/actions.png)
-**Figura 9:** Actions con ejecución exitosa.
+![Figura 9 â€” Actions success](assets/img/01-publicar/actions.png)
+**Figura 9:** Actions con ejecuciÃ³n exitosa.
 
 
-### Señales típicas
+### SeÃ±ales tÃ­picas
 
 - Si **Actions** sigue corriendo: espera (es normal).
 - Si falla (rojo): abre el job y lee el error (a veces es un YAML mal indentado o un archivo faltante).
@@ -179,11 +180,11 @@ GitHub te mostrará tu URL con este formato:
 
 - [ ] Hacer **commit** y **push** (desde Codespaces).
 - [ ] Ajustaste `url` y `baseurl` en `_config.yml`.
-- [ ] Activaste **Settings → Pages** con `main` y `/ (root)`.
-- [ ] En **Actions** la ejecución está en verde.
-- [ ] Tu URL abre y el menú lateral aparece.
+- [ ] Activaste **Settings â†’ Pages** con `main` y `/ (root)`.
+- [ ] En **Actions** la ejecuciÃ³n estÃ¡ en verde.
+- [ ] Tu URL abre y el menÃº lateral aparece.
 
 ---
 
-## Siguiente sección
+## Siguiente secciÃ³n
 [Estructura del repositorio ](02-estructura-del-repo.md)
