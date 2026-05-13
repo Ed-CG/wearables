@@ -16,7 +16,7 @@ has_children: true
 
 ---
 
-## 5. Conclusiones
+## Conclusiones
 
 Desde la perspectiva del diseño, este proyecto fue sumamente revelador. Desarrollar un producto con un objetivo de salud tan claro resultó satisfactorio, ya que nos permitió aplicar el diseño para responder a una urgencia médica real, pasando de una idea estética a un dispositivo funcional.
 

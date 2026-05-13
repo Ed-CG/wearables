@@ -5,7 +5,7 @@ parent: Práctica 2
 nav_order: 3
 ---
 
-## 3. Proceso de Manufactura e Implementación
+## Proceso de Manufactura e Implementación
 
 El desarrollo físico de la pieza requirió de múltiples iteraciones, enfrentándonos directamente a la realidad de la mecánica de los materiales frente a la teoría.
 

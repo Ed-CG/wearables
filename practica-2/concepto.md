@@ -5,7 +5,7 @@ parent: Práctica 2
 nav_order: 1
 ---
 
-## 1. Concepto e Intención de Diseño
+## Concepto e Intención de Diseño
 
 El desarrollo de esta pieza se guió por la metodología de *Design Thinking*. Si bien la ideación inicial exploraba un enfoque lúdico y de contención (una pulsera de compañía nocturna para infancias), el proceso de diálogo y empatía nos llevó a pivotar hacia un objetivo de impacto crítico: **una pulsera guía para Reanimación Cardiopulmonar (RCP).**
 

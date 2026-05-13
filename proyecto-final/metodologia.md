@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 2
 ---
 
-## 4. Metodología de Diseño y Arquitectura Electrónica
+## Metodología de Diseño y Arquitectura Electrónica
 
 En esta sección se explica cómo se planeó que las piezas se movieran y cómo se unieron los materiales de plástico duro con la tela flexible. Todo este sistema fue diseñado en teoría y planificado detalladamente, aunque, como se mencionó antes, los componentes electrónicos no se compraron ni se instalaron en la pieza física.
 

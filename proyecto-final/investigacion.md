@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 6
 ---
 
-## 1. Investigación
+## Investigación
 
 ### Definición de la Ambición del Proyecto
 

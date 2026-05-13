@@ -7,7 +7,7 @@ has_children: true
 
 # Proyecto Pangolín: Arte Vestible Inspirado en la Naturaleza
 
-## 9. Conclusiones (Reflexión Crítica)
+## Conclusiones (Reflexión Crítica)
 
 Esta sección final resume los aprendizajes obtenidos tras la construcción y prueba de la prenda, evaluando los resultados desde un punto de vista práctico y realista.
 

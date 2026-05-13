@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 1
 ---
 
-## 3. Concepto (Intención de Diseño)
+## Concepto (Intención de Diseño)
 
 En este apartado se explica qué se busca lograr con la apariencia de la pieza y por qué se decidió construirla de una manera específica.
 

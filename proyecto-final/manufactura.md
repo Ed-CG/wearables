@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 3
 ---
 
-## 6. Proceso de Manufactura e Implementación
+## Proceso de Manufactura e Implementación
 
 En esta sección se detalla el proceso de fabricación de las piezas de plástico y se explican los resultados de la prueba física que detuvo la construcción de la armadura completa.
 

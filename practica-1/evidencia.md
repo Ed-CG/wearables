@@ -5,7 +5,7 @@ parent: Práctica 1
 nav_order: 4
 ---
 
-## 4. Evidencia Fotográfica y Validación
+## Evidencia Fotográfica y Validación
 
 El funcionamiento y la integración del circuito en el textil se documentan a continuación, demostrando tanto el proceso de diseño interno como la validación final del brazalete.
 

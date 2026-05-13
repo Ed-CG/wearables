@@ -5,7 +5,7 @@ parent: Práctica 2
 nav_order: 2
 ---
 
-## 2. Metodología de Diseño y Arquitectura Electrónica
+## Metodología de Diseño y Arquitectura Electrónica
 
 Aplicamos la metodología *Pahl & Beitz* para dividir el problema en módulos funcionales, separando la interfaz táctil del procesamiento lógico.
 

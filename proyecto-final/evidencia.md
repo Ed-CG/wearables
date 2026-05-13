@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 4
 ---
 
-## 8. Evidencia Visual (Fotos y Diseño 3D)
+## Evidencia Visual (Fotos y Diseño 3D)
 
 En esta sección se presentan las imágenes que comprueban el trabajo realizado, desde el diseño en la computadora hasta la fabricación y las pruebas físicas. Cada imagen está acompañada de una explicación sobre su importancia en el desarrollo del proyecto.
 
@@ -15,7 +15,7 @@ Para entender cómo se arman las piezas antes de fabricarlas, se generaron imág
 
 * **![Captura de pantalla de 'mecanismo_escama.iam' en vista explosionada](../assets/img/ss_modelos/exploded.png)**
 * **Descripción de la evidencia:** Esta imagen muestra las piezas separadas (la base, la escama y el eje). Sirve para demostrar visualmente cómo la pieza móvil encaja a presión dentro de la base fija.
-<iframe src="https://drive.google.com/file/d/1-8Ki7ztZvTfsFrFfMJg4N3FGN6wtAqqm/preview" width="100%" height="480" allow="autoplay" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/1-8Ki7ztZvTfsFrFfMJg4N3FGN6wtAqqm/view?usp=sharing" width="100%" height="480" allow="autoplay" frameborder="0"></iframe>
 * **![Captura de pantalla de 'motor_spool.iam' con corte transversal](../assets/img/ss_modelos/spool_half.png)**
 * **Descripción de la evidencia:** Se muestra un corte por la mitad del carrete diseñado para el motor. Aquí se pueden ver los canales separados y las ranuras internas que se diseñaron para sostener los hilos antes de aplicar el pegamento.
 

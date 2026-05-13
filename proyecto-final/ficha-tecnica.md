@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 9
 ---
 
-## 7. Ficha Técnica
+## Ficha Técnica
 
 Esta sección funciona como un resumen directo de las medidas, el peso, los requerimientos de energía y la lista completa de todos los materiales necesarios para construir la obra en su totalidad.
 

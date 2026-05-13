@@ -5,7 +5,7 @@ parent: Práctica 1
 nav_order: 2
 ---
 
-## 2. Metodología de Diseño y Arquitectura Electrónica
+## Metodología de Diseño y Arquitectura Electrónica
 
 El proceso creativo siguió un enfoque metódico que partió de la exploración material (el textil y la espuma) hacia la integración de la electrónica.
 

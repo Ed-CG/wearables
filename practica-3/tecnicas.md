@@ -5,9 +5,9 @@ parent: Práctica 3
 nav_order: 1
 ---
 
-## 1. Técnicas de Bordado y Estampado
+## Técnicas de Bordado y Estampado
 
-### 1.1 Materiales Empleados
+### Materiales Empleados
 
 Para esta fase de experimentación, el kit de trabajo consistió en:
 
@@ -19,7 +19,7 @@ Para esta fase de experimentación, el kit de trabajo consistió en:
 * Rasero para serigrafía.
 * 4 hojas tamaño carta de tela de manta y un lienzo de manta prelavada como soporte principal.
 
-### 1.2 Curva de Aprendizaje: Técnicas de Bordado
+### Curva de Aprendizaje: Técnicas de Bordado
 
 Durante la práctica desarrollé cuatro puntadas, enfocándome en la estructura que cada una le aporta a la tela. El hilo funcionó esencialmente como un elemento de tracción, y la tela como una matriz flexible.
 
@@ -36,7 +36,7 @@ Observar el reverso revela que el anverso del punto atrás es idéntico al rever
 **Cadeneta**
 Esta puntada me obligó a entrar en un ritmo mecánico muy específico (entrar, enlazar, jalar). Enlazar los bucles requiere una destreza rítmica constante. Resultó ser la técnica visualmente más interesante debido al volumen casi arquitectónico que genera sobre el lienzo crudo de la manta, dándole a la tela una textura pesada y muy presente.
 
-### 1.3 Técnica de Estampado: Serigrafía de Patrones Complementarios
+### Técnica de Estampado: Serigrafía de Patrones Complementarios
 
 Para modificar la superficie del textil, ejecutamos un proceso de serigrafía a dos tintas (azul y naranja) sobre la misma área, buscando expandir y complementar un patrón visual mediante el uso de marcas de registro.
 

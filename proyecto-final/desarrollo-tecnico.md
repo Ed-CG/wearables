@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 8
 ---
 
-## 5. Desarrollo Técnico (Iteraciones en CAD y Simulaciones)
+## Desarrollo Técnico (Iteraciones en CAD y Simulaciones)
 
 En esta fase se detalla cómo los modelos 3D fueron modificados en la computadora antes de ser impresos. El diseño requirió ajustes de medidas para asegurar que las piezas encajaran bien y se movieran correctamente sin atorarse.
 

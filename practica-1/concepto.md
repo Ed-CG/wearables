@@ -5,7 +5,7 @@ parent: Práctica 1
 nav_order: 1
 ---
 
-## 1. Concepto e Intención de Diseño
+## Concepto e Intención de Diseño
 
 El objetivo principal fue crear una pieza de *wearable art* que fusionara la estética de la joyería tradicional con la flexibilidad de la tecnología vestible. Visualizamos un brazalete de presencia gruesa y robusta, donde los LEDs de distintos colores no solo fueran indicadores lumínicos, sino que fungieran visualmente como representaciones de piedras preciosas incrustadas en el textil.
 

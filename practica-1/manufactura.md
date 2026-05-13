@@ -5,7 +5,7 @@ parent: Práctica 1
 nav_order: 3
 ---
 
-## 3. Proceso de Manufactura e Implementación
+## Proceso de Manufactura e Implementación
 
 La fabricación se basó en resolver el reto físico de la interactividad y la seguridad eléctrica, manteniendo en todo momento la flexibilidad y comodidad en la muñeca.
 

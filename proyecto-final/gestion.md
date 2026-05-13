@@ -5,7 +5,7 @@ parent: Proyecto Final
 nav_order: 7
 ---
 
-## 2. Gestión (Cronograma y Análisis de Costos)
+## Gestión (Cronograma y Análisis de Costos)
 
 Esta sección detalla cómo se administraron los tiempos y los recursos económicos del proyecto, diferenciando claramente entre la construcción física que se completó y la parte tecnológica que quedó como una propuesta técnica.
 

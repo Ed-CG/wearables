@@ -16,7 +16,7 @@ has_children: true
 
 ---
 
-## 5. Conclusiones
+## Conclusiones
 
 Desde la perspectiva del diseño, este proyecto representó un reto sumamente enriquecedor al ser nuestro primer acercamiento tangible con componentes electrónicos funcionales integrados a un textil flexible. El resultado fue exitoso: logramos una pieza cómoda, volumétrica y estéticamente atractiva.
 

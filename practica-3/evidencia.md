@@ -5,11 +5,11 @@ parent: Práctica 3
 nav_order: 2
 ---
 
-## 2. Evidencia Fotográfica
+## Evidencia Fotográfica
 
 El análisis de esta práctica se documenta mediante fotografías de detalle (macro), evaluando la ejecución manual, el volumen generado sobre el lienzo y la correcta aplicación física de los materiales.
 
-### 2.1 Evidencia de Bordado
+### Evidencia de Bordado
 
 **Hilván**
 ![Anverso Hilván](../assets/img/fotos_wearables/emb_hilvan_front.jpg)
@@ -39,7 +39,7 @@ El análisis de esta práctica se documenta mediante fotografías de detalle (ma
 ![Reverso Cadeneta](../assets/img/fotos_wearables/emb_chain_back.jpg)
 > **Reverso:** Análisis de la línea de anclaje de la cadeneta, manteniendo la limpieza sin hilos sueltos o enmarañados.
 
-### 2.2 Evidencia de Serigrafía
+### Evidencia de Serigrafía
 
 **Resultado: Patrones Complementarios**
 ![Estampado final](../assets/img/fotos_wearables/estampado.jpg)
