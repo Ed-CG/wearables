@@ -22,10 +22,7 @@ La siguiente documentación se centra en el ensamble final del prototipo y la va
 > **Acabado Ergonómico:** El prototipo cosido y terminado. A pesar de las inconsistencias en el enrollado por impacto de la cinta métrica, el contenedor textil logró el objetivo de proteger al usuario, albergando la tira NeoPixel que dicta la compleja secuencia clínica de RCP.
 
 **Registro en Video: Secuencia de RCP y Efecto Breathing**
-<video width="100%" controls>
-  <source src="../assets/videos/breathing.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de videos.
-</video>
+<iframe src="https://drive.google.com/file/d/1kFh0sAa0ocCmQ0pcbaFEMM-rdm33wEiz/preview" width="100%" height="480" allow="autoplay" frameborder="0"></iframe>
 > **Validación Lumínica:** Registro audiovisual demostrando el funcionamiento de la Máquina de Estados programada en el microcontrolador. Se puede observar claramente el ritmo preciso de las compresiones (luz roja emulando el latido) y la transición hacia el efecto *breathing* (desvanecimiento en luz cian mediante onda senoidal), validando la interacción del código con la interfaz física para guiar una emergencia real.
 
 ---
