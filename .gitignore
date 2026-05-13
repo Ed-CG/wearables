@@ -8,3 +8,13 @@ vendor/
 # Local workspace config
 *.code-workspace
 .github/prompts/
+
+# Context files
+og_docs/
+*.py
+
+# Ignorar videos y zips
+*.mp4
+*.zip
+assets/videos/
+assets/img/*.zip
